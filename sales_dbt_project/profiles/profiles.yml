@@ -1,9 +1,9 @@
-sales_dbt:
+postgres_profile:
   target: dev
   outputs:
     dev:
       type: postgres
-      host: localhost
+      host: postgres-service
       user: dbt
       password: dbt
       port: 5432
