@@ -25,3 +25,6 @@ on-run-start:
   - "create schema if not exists silver;"
   - "create schema if not exists gold;"
   - "create schema if not exists analytics_raw;"
+  - "create schema if not exists analytics_bronze;"
+  - "create schema if not exists analytics_silver;"
+  - "create schema if not exists analytics_gold;"
